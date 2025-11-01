@@ -6,12 +6,12 @@ An **asynchronous LangGraph** agent that can **browse the web** using LangChain'
 This repo packages your *Week 4, Day 4* notebook into a clean project you can push to GitHub.
 
 ## Features
-- ⚙️ **Async-first** graph: uses `ainvoke` and async tools
-- 🌐 **Web browsing tools** via Playwright (navigate pages, extract text, etc.)
-- 🔔 **Pushover** tool for push notifications
-- 💬 **Gradio** chat UI
-- 🧠 **Memory** using `langgraph.checkpoint.memory.MemorySaver`
-- 🧵 Typed state with `TypedDict` + `add_messages` reducer
+- **Async-first** graph: uses `ainvoke` and async tools
+- **Web browsing tools** via Playwright (navigate pages, extract text, etc.)
+- **Pushover** tool for push notifications
+- **Gradio** chat UI
+- **Memory** using `langgraph.checkpoint.memory.MemorySaver`
+- Typed state with `TypedDict` + `add_messages` reducer
 
 ## Project Structure
 ```
